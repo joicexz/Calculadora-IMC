@@ -115,12 +115,13 @@ body {
     grid-template-areas: "info description";
     grid-template-columns: 150px 1fr;
     display: grid;
+    gap: 15px;
 }
 
 .info {
     background-color: #a3abc5;
-    grid-area: info;
     justify-content: space-between;
+    grid-area: info;
     display: flex;
     flex-direction: column;
     justify-content: center;
